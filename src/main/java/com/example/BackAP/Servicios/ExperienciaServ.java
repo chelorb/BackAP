@@ -31,7 +31,7 @@ public class ExperienciaServ implements IntExperiencia {
     @Override
     public void deleteExperiencia(Integer id){
 
-        experienciaRepo.delete(id);
+        experienciaRepo.deleteById(id);
         }
 
         @Override
