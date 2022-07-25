@@ -9,7 +9,6 @@ public interface IntExperiencia {
 
     void saveExperiencia(Experiencia experiencia);
 
-    void deleteExperiencia(Experiencia experiencia);
 
     Experiencia findExperiencia(Integer id);
 

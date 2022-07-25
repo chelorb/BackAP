@@ -29,10 +29,6 @@ public class ProyectoServ implements IntProyecto {
         proyectoRepo.save(proyecto);
     }
 
-    @Override
-    public void deleteProyecto(Proyecto proyecto) {
-
-    }
 
     @Override
     public void deleteProyecto(Integer id) {

@@ -9,8 +9,6 @@ public interface IntProyecto {
 
     void saveProyecto(Proyecto proyecto);
 
-    void deleteProyecto(Proyecto proyecto);
-
     void deleteProyecto(Integer id);
 
     Proyecto findProyecto(Integer id);

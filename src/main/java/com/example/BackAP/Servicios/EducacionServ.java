@@ -32,10 +32,6 @@ educacionRepo.save(educacion);
 
     }
 
-    @Override
-    public void deleteEducacion(Educacion educacion) {
-
-    }
 
     @Override
     public void deleteEducacion(Integer id) {

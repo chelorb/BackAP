@@ -1,8 +1,6 @@
 package com.example.BackAP.Controller;
 
-import com.example.BackAP.Entidades.Competencia;
 import com.example.BackAP.Entidades.Educacion;
-import com.example.BackAP.Interfaces.IntCompetencia;
 import com.example.BackAP.Interfaces.IntEducacion;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +11,7 @@ import java.util.List;
 public class EducacionController {
 
     @Autowired
-    IntEducacion intEducacion;
+    private IntEducacion intEducacion;
     @GetMapping("/educacion/traer")
 
     public List<Educacion> getEducacion(){
@@ -44,7 +42,8 @@ public class EducacionController {
 
     @PutMapping("/educacion/editar/{id}")
     public void actualizarEducacion(@RequestBody Educacion educacion) {
-       intEducacion.saveEducacion(educacion);
+
+        intEducacion.saveEducacion(educacion);
     }
 
 }

@@ -28,9 +28,10 @@ public class ExperienciaServ implements IntExperiencia {
             experienciaRepo.save(experiencia);
         }
 
-        @Override
-    public void deleteExperiencia(Experiencia experiencia){
-        experienciaRepo.delete(experiencia);
+    @Override
+    public void deleteExperiencia(Integer id){
+
+        experienciaRepo.delete(id);
         }
 
         @Override
@@ -40,10 +41,6 @@ public class ExperienciaServ implements IntExperiencia {
         return experiencia;
         }
 
-    @Override
-    public void deleteExperiencia(Integer id) {
-
-    }
 
 
 }

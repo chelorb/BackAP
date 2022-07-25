@@ -1,8 +1,8 @@
 package com.example.BackAP.Controller;
 
-import com.example.BackAP.Entidades.Competencia;
+
 import com.example.BackAP.Entidades.Experiencia;
-import com.example.BackAP.Interfaces.IntCompetencia;
+
 import com.example.BackAP.Interfaces.IntExperiencia;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
