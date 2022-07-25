@@ -12,4 +12,6 @@ public interface IntExperiencia {
     void deleteExperiencia(Experiencia experiencia);
 
     Experiencia findExperiencia(Integer id);
+
+    void deleteExperiencia(Integer id);
 }

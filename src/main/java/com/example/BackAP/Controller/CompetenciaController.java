@@ -21,7 +21,7 @@ public class CompetenciaController {
     }
 
 
-    @GetMapping("/competencia/trer/{id}")
+    @GetMapping("/competencia/traer/{id}")
 
     public Competencia findCompetencia(@PathVariable Integer id) {
      Competencia competencia=intCompetencia.findCompetencia(id);

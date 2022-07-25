@@ -40,9 +40,13 @@ public class ExperienciaServ implements IntExperiencia {
         return experiencia;
         }
 
-
+    @Override
+    public void deleteExperiencia(Integer id) {
 
     }
+
+
+}
 
 
 

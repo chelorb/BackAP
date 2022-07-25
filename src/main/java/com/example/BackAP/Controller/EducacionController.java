@@ -22,7 +22,7 @@ public class EducacionController {
     }
 
 
-    @GetMapping("/educacion/trer/{id}")
+    @GetMapping("/educacion/traer/{id}")
 
     public Educacion findEducacion (@PathVariable Integer id) {
         Educacion educacion=intEducacion.findEducacion(id);
