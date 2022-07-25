@@ -47,7 +47,6 @@ educacionRepo.save(educacion);
 
     return educacion;
 
-
     }
 
 
